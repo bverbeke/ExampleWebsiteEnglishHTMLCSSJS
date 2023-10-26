@@ -2,24 +2,57 @@
 <html>
 
 <head>
-	<title>Example website HTML and CSS</title>
-	<link href="index.css" rel="stylesheet" type="text/css" />
+	<title>Example website HTML and CSS</title> 
+	<link href="all_together.css" rel="stylesheet" type="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<h1>Welcome to CVVW 2022-2023</h1>
-	<p>This is our first paragraph</p>
-	<p>This is a paragraph with a hyperlink to <a href="https://www.google.be" target="_blank">Google</a></p>
-	<ul>
-		<li>This is an item in an unordered list</li>
-		<li>This is an item in an unordered list</li>
-	</ul>
-	<ol>
-		<li>This is an item in an ordered list</li>
-		<li>This is an item in an ordered list</li>
-	</ol>
-	<p>This is an image <img src="ugentlogo.png"/></p>
-	<p class="coolparagraph">This is a paragraph that is targeted with CSS</p>
+	<div class="wrapper">
+		<div class="content">
+			<div class="box head">
+				<h1>Resume Bart Verbeke</h1>
+			</div>
+			
+			<div class="box sidebar">
+				<div class="personalimage"><img src="professor.JPG"/></div>
+				<div class="personaldetails">
+					<div class="personaldetailitem">Prof. dr. Bart Verbeke</div>
+					<div class="personaldetailitem">08/11/2004</div>
+					<div class="personaldetailitem">Gent</div>
+				</div>
+			</div>
+			<div class="box experience">
+				<h2>Experience</h2>
+				<div class="experienceitem">
+					<div class="experienceheader">
+						<span class="experiencedate">2022 - now</span>
+						<span class="experiencetitle">Bachelor commercial sciences</span>
+					</div>
+					<div class="experienceitemcontent">
+						The Master Labs is a service organization that helps you build better experiences, operations
+						and digital products. We also share our knowledge with others through our Academy.
+					</div>
+				</div>
+				<div class="experienceitem">
+					<div class="experienceheader">
+						<span class="experiencedate">2022 - now</span>
+						<span class="experiencetitle">student at UGent</span>
+					</div>
+					<div class="experienceitemcontent">
+						Bart Verbeke is contributing in the course Creating Value With Websites, he hopes his project
+						works out.
+					</div>
+				</div>
+			</div>
+			<div class="box foot">
+				<div>&copy; Bart Verbeke 2023</div>
+			</div>
+		</div>
+	</div>
+
 </body>
 
 </html>
